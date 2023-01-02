@@ -74,9 +74,9 @@ main {
 
 .aboutmetitle {
 
-  display: flex;
+  /* display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: wrap; */
   flex-basis: 20%;
   /* justify-content: flex-start; */
 
@@ -84,20 +84,21 @@ main {
 
 .aboutmetext {
 
-  display: flex;
+  /* display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: wrap; */
   flex-basis: 80%;
 
 }
-/* start of work section */
-.work{
+
+ .work {
+
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  /* justify-content: center; */
-  column-count: 6;
-  column-gap: 10px;
+  flex-direction: column;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: ;
+
  }
 
  /* .worktitle {
@@ -107,16 +108,16 @@ main {
  } */
 /* give bgimage1 padding and margin to move left make p its own div with second backgroun image of white also give large bg image a black border if this works do same for below */
  .bgimage1 {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: center;
+
   background-image: url(./images/surfreport\ copy.jpg);
+  /* flex: 2 1 200px; */
+  flex-grow: 2;
   background-repeat: no-repeat;
   background-size: 100%;
+
   height: 300px;
   max-width: 600px;
-  margin-left:250px;
+  /* margin-left:250px; */
   /* border-color:black;
   border: 2px; */
  }
@@ -127,8 +128,10 @@ main {
   background-image: url(./images/ledwall\ copy.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
-  height: 100px;
-  max-width: 200px;
+  flex-direction: column;
+  /* flex-grow: 1; */
+  height: 150px;
+  max-width: 300px;
  }
 
  .bgimage3 {
@@ -136,8 +139,10 @@ main {
   background-image: url(./images/calculator\ copy.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
-  height: 100px;
-  max-width: 200px;
+  flex-direction: column;
+  /* flex-grow: 1; */
+  height: 150px;
+  max-width: 300px;
  }
 
  .bgimage4 {
@@ -145,8 +150,10 @@ main {
   background-image: url(./images/pastelpuzzels\ copy.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
-  height: 100px;
-  max-width: 200px;
+  flex-direction: column;
+  /* flex-grow: 1; */
+  height: 150px;
+  max-width: 300px;
 
  }
 
@@ -155,6 +162,14 @@ main {
   background-image: url(./images/runbuddy\ copy.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
-  height: 100px;
-  max-width: 200px;
+  flex-grow: 1;
+  height: 150px;
+  max-width: 300px;
+ }
+
+ .bgtext {
+
+  background-color: white;
+  color: black;
+
  }
