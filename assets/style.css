@@ -94,10 +94,11 @@ main {
  .work {
 
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   width: 100%;
-  justify-content: flex-start;
-  align-items: ;
+  /* justify-content: space-around; */
+  order: 0
+  /* align-items: ; */
 
  }
 
@@ -106,14 +107,16 @@ main {
   
 
  } */
-/* give bgimage1 padding and margin to move left make p its own div with second backgroun image of white also give large bg image a black border if this works do same for below */
+/* TODO bgimage1  make p its own div with second background image of white also give large bg image a black border if this works do same for below */
  .bgimage1 {
 
   background-image: url(./images/surfreport\ copy.jpg);
   /* flex: 2 1 200px; */
+  flex-direction: column;
   flex-grow: 2;
   background-repeat: no-repeat;
   background-size: 100%;
+  order: 1;
 
   height: 300px;
   max-width: 600px;
@@ -129,6 +132,7 @@ main {
   background-repeat: no-repeat;
   background-size: 100%;
   flex-direction: column;
+  order: 2;
   /* flex-grow: 1; */
   height: 150px;
   max-width: 300px;
@@ -140,6 +144,7 @@ main {
   background-repeat: no-repeat;
   background-size: 100%;
   flex-direction: column;
+  order: 4;
   /* flex-grow: 1; */
   height: 150px;
   max-width: 300px;
@@ -151,6 +156,7 @@ main {
   background-repeat: no-repeat;
   background-size: 100%;
   flex-direction: column;
+  order: 5;
   /* flex-grow: 1; */
   height: 150px;
   max-width: 300px;
@@ -162,9 +168,11 @@ main {
   background-image: url(./images/runbuddy\ copy.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
+  flex-direction: column;
   flex-grow: 1;
   height: 150px;
   max-width: 300px;
+  order: 6;
  }
 
  .bgtext {
@@ -173,3 +181,9 @@ main {
   color: black;
 
  }
+
+ footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
