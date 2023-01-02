@@ -112,11 +112,16 @@ main {
  .bgimage1 {
 
   background-image: url(./images/surfreport\ copy.jpg);
-  flex: 2 1 200px;
+  flex: 2 1 300px;
   flex-direction: column;
   /* flex-grow: 2; */
   background-repeat: no-repeat;
   background-size: 100%;
+  padding: 50px;
+  border: 3px solid black ;
+  margin: 2px;
+
+  /* justify-content: flex-start; */
   /* order: 1; */
   /* height: 300px; */
   /* max-width: 600px; */
@@ -131,6 +136,9 @@ main {
   background-size: 100%;
   flex-direction: column;
   flex: 1 0 200px;
+  padding: 50px;
+  border: 3px solid black ;
+  margin: 2px;
   /* order: 2; */
   /* flex-grow: 1; */
   /* height: 150px; */
@@ -144,6 +152,9 @@ main {
   background-size: 100%;
   flex-direction: column;
   flex: 1 0 200px;
+  padding: 50px;
+  border: 3px solid black ;
+  margin: 2px;
   /* order: 4; */
   /* flex-grow: 1; */
   /* height: 150px; */
@@ -157,6 +168,9 @@ main {
   background-size: 100%;
   flex-direction: column;
   flex: 1 0 200px;
+  padding: 50px;
+  border: 3px solid black ;
+  margin: 2px;
   /* order: 5; */
   /* flex-grow: 1; */
   /* height: 150px; */
@@ -171,10 +185,20 @@ main {
   background-size: 100%;
   flex-direction: column;
   flex: 1 0 200px;
+  padding: 50px;
+  border: 3px solid black ;
+  margin: 2px;
   /* flex-grow: 1; */
   /* height: 150px; */
   /* max-width: 300px; */
   /* order: 6; */
+ }
+
+ .worktext {
+
+  padding: 50px;
+  border: 10px;
+
  }
 
  .bgtext {
