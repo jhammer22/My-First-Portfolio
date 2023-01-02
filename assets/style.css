@@ -94,10 +94,11 @@ main {
  .work {
 
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   width: 100%;
   /* justify-content: space-around; */
-  order: 0
+  /* order: 0 */
   /* align-items: ; */
 
  }
@@ -111,18 +112,15 @@ main {
  .bgimage1 {
 
   background-image: url(./images/surfreport\ copy.jpg);
-  /* flex: 2 1 200px; */
+  flex: 2 1 200px;
   flex-direction: column;
-  flex-grow: 2;
+  /* flex-grow: 2; */
   background-repeat: no-repeat;
   background-size: 100%;
-  order: 1;
-
-  height: 300px;
-  max-width: 600px;
-  /* margin-left:250px; */
-  /* border-color:black;
-  border: 2px; */
+  /* order: 1; */
+  /* height: 300px; */
+  /* max-width: 600px; */
+  
  }
 
 
@@ -132,10 +130,11 @@ main {
   background-repeat: no-repeat;
   background-size: 100%;
   flex-direction: column;
-  order: 2;
+  flex: 1 0 200px;
+  /* order: 2; */
   /* flex-grow: 1; */
-  height: 150px;
-  max-width: 300px;
+  /* height: 150px; */
+  /* max-width: 300px; */
  }
 
  .bgimage3 {
@@ -144,10 +143,11 @@ main {
   background-repeat: no-repeat;
   background-size: 100%;
   flex-direction: column;
-  order: 4;
+  flex: 1 0 200px;
+  /* order: 4; */
   /* flex-grow: 1; */
-  height: 150px;
-  max-width: 300px;
+  /* height: 150px; */
+  /* max-width: 300px; */
  }
 
  .bgimage4 {
@@ -156,10 +156,11 @@ main {
   background-repeat: no-repeat;
   background-size: 100%;
   flex-direction: column;
-  order: 5;
+  flex: 1 0 200px;
+  /* order: 5; */
   /* flex-grow: 1; */
-  height: 150px;
-  max-width: 300px;
+  /* height: 150px; */
+  /* max-width: 300px; */
 
  }
 
@@ -169,16 +170,20 @@ main {
   background-repeat: no-repeat;
   background-size: 100%;
   flex-direction: column;
-  flex-grow: 1;
-  height: 150px;
-  max-width: 300px;
-  order: 6;
+  flex: 1 0 200px;
+  /* flex-grow: 1; */
+  /* height: 150px; */
+  /* max-width: 300px; */
+  /* order: 6; */
  }
 
  .bgtext {
 
+  justify-content: flex-start;
   background-color: white;
   color: black;
+  /* margin: 0; */
+
 
  }
 
